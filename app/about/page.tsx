@@ -132,12 +132,40 @@ const page = () => {
                     <p className='text-gray-700 mb-3'>
                     I worked on a Task Management System as the Lead developer, implementing modern technologies and best practices.
                     </p>
-                    <div className='flex flex-wrap gap-2'>
+                     <a href="https://articals.org/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>
+                        Articals.org
+                    </a>
+                    <div className='flex flex-wrap gap-2 mt-2'>
                         <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>Next.js</span>
                         <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>TypeScript</span>
                         <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>Version Control</span>
                         <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>Critical Thinking</span>
                         <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>Tailwind CSS</span>
+                    </div>
+                </div>
+                </div>
+
+
+                           <div className='flex gap-6'>
+                <div className='shrink-0 w-4 h-4 bg-blue-600 rounded-full mt-2'></div>
+                <div className='flex-1'>
+                    <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2'>
+                    <h3 className='text-xl font-semibold'>Frontend Web Developer</h3>
+                    <span className='text-gray-500'>Jan 2025 - Feb 2025</span>
+                    </div>
+                    <p className='text-blue-600 mb-2'>Oasis Infobyte · Internship</p>
+                    <p className='text-gray-700 mb-3'>
+                    Virtual internship experience that helped develop foundational web development skills.
+                    </p>
+                    <div className='flex flex-wrap gap-2'>
+                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>HTML5</span>
+                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>GitHub</span>
+                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>Bootstrap</span>
+                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>CSS3</span>
+                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>JavaScript</span>
+                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>React.js</span>
+                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>Node.js</span>
+                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>Firebase</span>
                     </div>
                 </div>
                 </div>
@@ -171,29 +199,7 @@ const page = () => {
                 </div>
                 </div>
 
-                <div className='flex gap-6'>
-                <div className='shrink-0 w-4 h-4 bg-blue-600 rounded-full mt-2'></div>
-                <div className='flex-1'>
-                    <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2'>
-                    <h3 className='text-xl font-semibold'>Web Developer</h3>
-                    <span className='text-gray-500'>Jan 2025 - Feb 2025</span>
-                    </div>
-                    <p className='text-blue-600 mb-2'>Oasis Infobyte · Internship</p>
-                    <p className='text-gray-700 mb-3'>
-                    Virtual internship experience that helped develop foundational web development skills.
-                    </p>
-                    <div className='flex flex-wrap gap-2'>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>HTML5</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>GitHub</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>Bootstrap</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>CSS3</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>JavaScript</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>React.js</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>Node.js</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>Firebase</span>
-                    </div>
-                </div>
-                </div>
+
             </div>
             </div>
         </section>

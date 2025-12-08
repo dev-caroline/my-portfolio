@@ -3,21 +3,23 @@
 This directory contains all the images used in your portfolio. Please add the following images:
 
 ## Projects Images (for /projects page)
-- `ecommerce-platform.jpg` - Screenshot of your e-commerce platform
-- `task-management.jpg` - Screenshot of your task management app
-- `weather-dashboard.jpg` - Screenshot of your weather dashboard
-- `blog-platform.jpg` - Screenshot of your blog platform
-- `portfolio-generator.jpg` - Screenshot of your portfolio generator
-- `social-analytics.jpg` - Screenshot of your social media analytics
+- `notebox.png` - ✅ **ADDED** - Screenshot of your Notebox note-taking app
+- `medic diet clinic.png` - ✅ **ADDED** - Screenshot of your Medic Diet Clinic platform
+- `task-management.jpg` - 📋 **UPCOMING** - Screenshot for your task management app (when completed)
+- `ecommerce-platform.jpg` - 📋 **UPCOMING** - Screenshot for your e-commerce platform (when completed)
 
 ## Certification Images (for /certifications page)
-- `canva-certificate.jpg` - Your Canva design certificate
-- `data-analysis-certificate.jpg` - Your data analysis certification
+- `canva_certificate1 image.jpg` - ✅ **ADDED** - Your Canva design certificate
+- `Data Analysis cert.jpg` - ✅ **ADDED** - Your data analysis certification
 - `web-development-certificate.jpg` - Your web development certificate
 - `internship-certificate.jpg` - Your internship certificate
 
 ## Resume File (for download)
-- `resume.pdf` - Your professional resume (place in `/public/` directory, not in `/images/`)
+- `resume.pdf` - ✅ **ADDED** - Your professional resume (place in `/public/` directory, not in `/images/`)
+
+## Current Status:
+- ✅ **4 images added** (2 projects + 2 certificates + 1 resume)
+- 📋 **4 items still needed** (2 upcoming project images + 2 certificates)
 
 ## Resume Guidelines:
 - **Format**: PDF only

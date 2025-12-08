@@ -9,42 +9,42 @@ const page = () => {
             issuer: "Canva",
             description: "Comprehensive training in graphic design, visual communication, and digital content creation using Canva's design tools and platform.",
             skills: ["Graphic Design", "Visual Communication", "Digital Content Creation"],
-            date: "2024",
+            date: "2025",
             status: "Certified",
-            image: "/images/canva-certificate.jpg",
+            image: "/images/canva_certificate1 image.jpg",
             color: "blue"
         },
         {
             id: 2,
             title: "Data Analysis Certification",
-            issuer: "Microsoft",
+            issuer: "SQI College of ICT",
             description: "Advanced Excel skills including data visualization, pivot tables, formulas, and data analysis techniques for business intelligence.",
             skills: ["Excel", "Data Visualization", "Business Intelligence"],
-            date: "2024",
+            date: "2025",
             status: "Certified",
-            image: "/images/data-analysis-certificate.jpg",
+            image: "/images/Data Analysis cert.jpg",
             color: "green"
         },
         {
             id: 3,
             title: "Full Stack Web Development",
-            issuer: "Self-Taught & Online Platforms",
+            issuer: "SQI College of ICT",
             description: "Comprehensive knowledge of modern web development technologies including MERN stack, responsive design, and best practices.",
             skills: ["React", "Node.js", "MongoDB", "Express", "TypeScript"],
-            date: "2023-2024",
+            date: "2024-2025",
             status: "In Progress",
-            image: "/images/web-development-certificate.jpg",
+            image: "/images/placeholder-certificate.jpg",
             color: "purple"
         },
         {
             id: 4,
-            title: "Professional Internship Program",
-            issuer: "Tech Company",
+            title: "Frontend Internship Program",
+            issuer: "Oasis Infobyte",
             description: "Hands-on experience in software development, team collaboration, and industry-standard development practices.",
             skills: ["Team Collaboration", "Agile Development", "Professional Development"],
-            date: "2023",
+            date: "2025",
             status: "Completed",
-            image: "/images/internship-certificate.jpg",
+            image: "/images/placeholder-certificate.jpg",
             color: "orange"
         }
     ]
@@ -71,7 +71,13 @@ const page = () => {
                     {certifications.map((cert) => (
                     <div key={cert.id} className='bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow'>
                         <div className='bg-gray-100 p-8 text-center'>
-                        <img src={cert.image} alt={cert.title} className='w-20 h-20 mx-auto mb-4 object-cover rounded-lg' />
+                        {cert.image && cert.image !== "/images/placeholder-certificate.jpg" ? (
+                            <img src={cert.image} alt={cert.title} className='w-32 h-32 mx-auto mb-4 object-cover rounded-lg' />
+                        ) : (
+                            <div className='w-32 h-32 mx-auto mb-4 bg-gray-200 rounded-lg flex items-center justify-center'>
+                                <i className="bi bi-award text-2xl text-gray-400"></i>
+                            </div>
+                        )}
                         <h3 className='text-2xl font-bold mb-2'>{cert.title}</h3>
                         <p className='text-gray-600 mb-2'>Issued by {cert.issuer}</p>
                         <span className={`inline-block px-3 py-1 bg-${cert.color}-100 text-${cert.color}-800 text-sm rounded font-medium`}>

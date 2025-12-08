@@ -5,60 +5,40 @@ const page = () => {
     const projects = [
         {
         id: 1,
-        title: "E-Commerce Platform",
-        description: "A full-featured online shopping platform with cart functionality, payment integration, and admin dashboard. Built with modern React and Node.js.",
-        image: "/images/ecommerce-platform.jpg",
-        tags: ["React", "Next.js", "Node.js", "MongoDB"],
-        demo: "#",
+        title: "Notebox",
+        description: "A comprehensive note-taking application inspired by Google Keep, featuring real-time synchronization, rich text editing, and intuitive organization tools. Built with Firebase for seamless data persistence and modern JavaScript for a smooth user experience.",
+        image: "/images/notebox.png",
+        tags: ["JavaScript", "Firebase", "Real-time Sync", "Rich Text Editor"],
+        demo: "https://note-box-95a03.web.app/",
         github: "#",
         featured: true
         },
         {
         id: 2,
+        title: "Medic Diet Clinic",
+        description: "A professional nutrition and dietetics consultation platform that connects clients with certified dietitians. Features include appointment scheduling, personalized meal plans, progress tracking, and secure messaging. Built with the MERN stack for scalability and performance.",
+        image: "/images/medic diet clinic.png",
+        tags: ["React", "Node.js", "MongoDB", "Express", "MERN Stack"],
+        demo: "https://www.medicdietclinic.com/",
+        github: "#",
+        featured: true
+        },
+        {
+        id: 3,
         title: "Task Management App",
-        description: "Collaborative task manager with real-time updates, team workspaces, and productivity analytics. Features drag-and-drop functionality.",
-        image: "/images/task-management.jpg",
-        tags: ["React", "Node.js", "Tailwind CSS", "MongoDB"],
+        description: "A collaborative task management application with real-time updates, team workspaces, and productivity analytics. Features drag-and-drop functionality, deadline tracking, and progress visualization. Currently in development.",
+        image: "/images/placeholder-project.jpg",
+        tags: ["React", "Node.js", "MongoDB", "Real-time", "In Development"],
         demo: "#",
         github: "#",
         featured: true
         },
         {
         id: 3,
-        title: "Weather Dashboard",
-        description: "Beautiful weather application with location-based forecasts, interactive maps, and weather alerts. Clean, responsive design.",
-        image: "/images/weather-dashboard.jpg",
-        tags: ["React", "Weather API", "CSS", "JavaScript"],
-        demo: "#",
-        github: "#",
-        featured: false
-        },
-        {
-        id: 4,
-        title: "Blog Platform",
-        description: "Modern blogging platform with markdown support, SEO optimization, and social sharing features. Built for content creators.",
-        image: "/images/blog-platform.jpg",
-        tags: ["Next.js", "MDX", "Prisma", "PostgreSQL"],
-        demo: "#",
-        github: "#",
-        featured: false
-        },
-        {
-        id: 5,
-        title: "Portfolio Generator",
-        description: "SaaS tool that helps developers create stunning portfolio websites with customizable templates and themes.",
-        image: "/images/portfolio-generator.jpg",
-        tags: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-        demo: "#",
-        github: "#",
-        featured: false
-        },
-        {
-        id: 6,
-        title: "Social Media Analytics",
-        description: "Analytics dashboard for tracking social media metrics, engagement rates, and audience insights with data visualization.",
-        image: "/images/social-analytics.jpg",
-        tags: ["React", "D3.js", "Express", "MongoDB"],
+        title: "E-Commerce Platform",
+        description: "A full-featured online shopping platform with cart functionality, payment integration, and admin dashboard. Includes product management, order tracking, and customer analytics. Currently in development.",
+        image: "/images/placeholder-project.jpg",
+        tags: ["React", "Node.js", "MongoDB", "Payment Integration", "In Development"],
         demo: "#",
         github: "#",
         featured: false
@@ -71,10 +51,10 @@ const page = () => {
             <div className='max-w-4xl mx-auto text-center'>
             <h1 className='text-5xl font-bold mb-6'>My Projects</h1>
             <p className='text-xl text-gray-600 mb-8 leading-relaxed'>
-                A collection of my recent work showcasing my skills in full-stack web development
+                Showcasing my completed projects and upcoming developments in full-stack web applications
             </p>
             <p className='text-lg text-gray-500'>
-                From e-commerce platforms to productivity tools, each project represents a unique challenge and learning experience.
+                From healthcare platforms to productivity tools, featuring both live applications and planned projects.
             </p>
             </div>
         </section>
@@ -83,11 +63,18 @@ const page = () => {
             <div className='max-w-6xl mx-auto'>
             <h2 className='text-3xl font-bold mb-12 text-center'>Featured Work</h2>
 
-            <div className='grid md:grid-cols-2 gap-8 mb-16'>
+            <div className='grid md:grid-cols-3 gap-8 mb-16'>
                 {projects.filter(project => project.featured).map((project) => (
                 <div key={project.id} className='bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow'>
                     <div className='bg-gray-100 h-64 flex items-center justify-center'>
-                    <img src={project.image} alt={project.title} className='w-full h-full object-cover' />
+                    {project.image && project.image !== "/images/placeholder-project.jpg" ? (
+                        <img src={project.image} alt={project.title} className='w-full h-full object-cover' />
+                    ) : (
+                        <div className='text-center'>
+                            <i className="bi bi-code-slash text-4xl text-gray-400 mb-2"></i>
+                            <p className='text-gray-500 text-sm'>Screenshot Coming Soon</p>
+                        </div>
+                    )}
                     </div>
                     <div className='p-8'>
                     <h3 className='text-2xl font-bold mb-3'>{project.title}</h3>
@@ -124,7 +111,14 @@ const page = () => {
                 {projects.map((project) => (
                 <div key={project.id} className='bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow'>
                     <div className='bg-gray-100 h-48 flex items-center justify-center'>
-                    <img src={project.image} alt={project.title} className='w-full h-full object-cover' />
+                    {project.image && project.image !== "/images/placeholder-project.jpg" ? (
+                        <img src={project.image} alt={project.title} className='w-full h-full object-cover' />
+                    ) : (
+                        <div className='text-center'>
+                            <i className="bi bi-code-slash text-3xl text-gray-400 mb-1"></i>
+                            <p className='text-gray-500 text-xs'>Coming Soon</p>
+                        </div>
+                    )}
                     </div>
                     <div className='p-6'>
                     <h3 className='text-xl font-bold mb-2'>{project.title}</h3>
