@@ -10,15 +10,15 @@ const page = () => {
 
           <div className='flex-1 text-center lg:text-left'>
             <p>Hello, i'm</p>
-            <h1 className='text-5xl lg:text-6xl font-bold mb-4'>
+            <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4'>
               Ajiboye Caroline Adetomiwa
             </h1>
 
-            <p className='text-xl lg:text-2xl font-medium mb-6 text-gray-700'>
+            <p className='text-lg md:text-xl lg:text-2xl font-medium mb-6 text-gray-700'>
               Software Engineer | Full Stack Web Developer | MERN Stack
             </p>
 
-            <p className='text-2xl lg:text-3xl font-bold mb-8 leading-relaxed'>
+            <p className='text-xl md:text-2xl lg:text-3xl font-bold mb-8 leading-relaxed'>
               I build clean and responsive <span className='text-blue-600'>modern websites.</span>
             </p>
 
