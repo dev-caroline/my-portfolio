@@ -43,7 +43,7 @@ const page = () => {
                     </p>
                 </div>
 
-                <div className='mt-8'>
+                <div className='mt-8 flex'>
                     <Link href="/projects">
                     <button className='border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-all mr-4'>
                         View My Work
@@ -62,7 +62,7 @@ const page = () => {
 
                 <div className='space-y-6'>
                     <div>
-                    <h3 className='text-xl font-semibold mb-3 text-blue-400'>Frontend Development</h3>
+                    <h3 className='text-xl font-semibold mb-3'>Frontend Development</h3>
                     <div className='flex flex-wrap gap-2'>
                         <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-blue-50 text-blue-800 rounded'>React</span>
                         <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-blue-50 text-blue-800 rounded'>Next.js</span>
@@ -73,7 +73,7 @@ const page = () => {
                     </div>
 
                     <div>
-                    <h3 className='text-xl font-semibold mb-3 text-blue-400'>Backend Development</h3>
+                    <h3 className='text-xl font-semibold mb-3 '>Backend Development</h3>
                     <div className='flex flex-wrap gap-2'>
                         <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-green-50 text-green-800 rounded'>Node.js</span>
                         <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-green-50 text-green-800 rounded'>Express</span>
@@ -84,7 +84,7 @@ const page = () => {
                     </div>
 
                     <div>
-                    <h3 className='text-xl font-semibold mb-3 text-blue-400'>Tools & Technologies</h3>
+                    <h3 className='text-xl font-semibold mb-3 '>Tools & Technologies</h3>
                     <div className='flex flex-wrap gap-2'>
                         <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-purple-50 text-purple-800 rounded'>Git</span>
                         <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-purple-50 text-purple-800 rounded'>GitHub</span>
@@ -98,7 +98,7 @@ const page = () => {
                     </div>
 
                     <div>
-                    <h3 className='text-xl font-semibold mb-3 text-blue-400'>AI & Prompt Engineering</h3>
+                    <h3 className='text-xl font-semibold mb-3 '>AI & Prompt Engineering</h3>
                     <div className='flex flex-wrap gap-2'>
                         <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-indigo-50 text-indigo-800 rounded'>ChatGPT</span>
                         <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-indigo-50 text-indigo-800 rounded'>Claude</span>
@@ -245,7 +245,7 @@ const page = () => {
             <p className='text-xl text-gray-600 mb-8'>
                 Interested in working together or just want to chat about tech?
             </p>
-            <a href="mailto:contact@example.com">
+            <a href="mailto:ajiboyecaroline95@gmail.com">
                 <button className='bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-all'>
                 Get In Touch
                 </button>
