@@ -132,7 +132,7 @@ const page = () => {
                     <p className='text-gray-700 mb-3'>
                     I worked on a Task Management System as the Lead developer, implementing modern technologies and best practices.
                     </p>
-                     <a href="https://articals.org/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>
+                    <a href="https://articals.org/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>
                         Articals.org
                     </a>
                     <div className='flex flex-wrap gap-2 mt-2'>

@@ -5,8 +5,8 @@ const page = () => {
   return (
     <div className='min-h-screen'>
       <section className='min-h-screen flex items-center justify-center px-4'>
-        <div className='flex items-center gap-16 max-w-6xl w-full'>
-          <div className='w-96 h-96 morphing-box rounded-2xl hidden lg:block'></div>
+        <div className='flex flex-col lg:flex-row items-center gap-8 lg:gap-16 max-w-6xl w-full'>
+          <div className='w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 morphing-box rounded-2xl'></div>
 
           <div className='flex-1 text-center lg:text-left'>
             <p>Hello, i'm</p>
