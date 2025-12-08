@@ -1,0 +1,21 @@
+# Resume Placeholder
+
+This is a placeholder for your resume PDF file.
+
+## Instructions:
+1. Create your resume as a PDF file
+2. Name it `resume.pdf`
+3. Place it in the `public/` directory
+4. The download link will automatically work
+
+## Resume Content Ideas:
+- Contact Information
+- Professional Summary
+- Skills & Technologies
+- Work Experience
+- Education
+- Certifications
+- Projects
+- Achievements
+
+Replace this file with your actual resume PDF when ready!

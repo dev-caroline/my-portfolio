@@ -7,8 +7,8 @@ const page = () => {
         id: 1,
         title: "E-Commerce Platform",
         description: "A full-featured online shopping platform with cart functionality, payment integration, and admin dashboard. Built with modern React and Node.js.",
-        image: "🛒",
-        tags: ["React", "Next.js", "Stripe", "MongoDB"],
+        image: "/images/ecommerce-platform.jpg",
+        tags: ["React", "Next.js", "Node.js", "MongoDB"],
         demo: "#",
         github: "#",
         featured: true
@@ -17,8 +17,8 @@ const page = () => {
         id: 2,
         title: "Task Management App",
         description: "Collaborative task manager with real-time updates, team workspaces, and productivity analytics. Features drag-and-drop functionality.",
-        image: "📋",
-        tags: ["React", "Node.js", "Socket.io", "PostgreSQL"],
+        image: "/images/task-management.jpg",
+        tags: ["React", "Node.js", "Tailwind CSS", "MongoDB"],
         demo: "#",
         github: "#",
         featured: true
@@ -27,7 +27,7 @@ const page = () => {
         id: 3,
         title: "Weather Dashboard",
         description: "Beautiful weather application with location-based forecasts, interactive maps, and weather alerts. Clean, responsive design.",
-        image: "🌤️",
+        image: "/images/weather-dashboard.jpg",
         tags: ["React", "Weather API", "CSS", "JavaScript"],
         demo: "#",
         github: "#",
@@ -37,7 +37,7 @@ const page = () => {
         id: 4,
         title: "Blog Platform",
         description: "Modern blogging platform with markdown support, SEO optimization, and social sharing features. Built for content creators.",
-        image: "📝",
+        image: "/images/blog-platform.jpg",
         tags: ["Next.js", "MDX", "Prisma", "PostgreSQL"],
         demo: "#",
         github: "#",
@@ -47,7 +47,7 @@ const page = () => {
         id: 5,
         title: "Portfolio Generator",
         description: "SaaS tool that helps developers create stunning portfolio websites with customizable templates and themes.",
-        image: "🎨",
+        image: "/images/portfolio-generator.jpg",
         tags: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
         demo: "#",
         github: "#",
@@ -57,7 +57,7 @@ const page = () => {
         id: 6,
         title: "Social Media Analytics",
         description: "Analytics dashboard for tracking social media metrics, engagement rates, and audience insights with data visualization.",
-        image: "📊",
+        image: "/images/social-analytics.jpg",
         tags: ["React", "D3.js", "Express", "MongoDB"],
         demo: "#",
         github: "#",
@@ -71,7 +71,7 @@ const page = () => {
             <div className='max-w-4xl mx-auto text-center'>
             <h1 className='text-5xl font-bold mb-6'>My Projects</h1>
             <p className='text-xl text-gray-600 mb-8 leading-relaxed'>
-                A collection of my recent work showcasing my skills in full-stack development
+                A collection of my recent work showcasing my skills in full-stack web development
             </p>
             <p className='text-lg text-gray-500'>
                 From e-commerce platforms to productivity tools, each project represents a unique challenge and learning experience.
@@ -87,7 +87,7 @@ const page = () => {
                 {projects.filter(project => project.featured).map((project) => (
                 <div key={project.id} className='bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow'>
                     <div className='bg-gray-100 h-64 flex items-center justify-center'>
-                    <span className='text-8xl'>{project.image}</span>
+                    <img src={project.image} alt={project.title} className='w-full h-full object-cover' />
                     </div>
                     <div className='p-8'>
                     <h3 className='text-2xl font-bold mb-3'>{project.title}</h3>
@@ -124,7 +124,7 @@ const page = () => {
                 {projects.map((project) => (
                 <div key={project.id} className='bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow'>
                     <div className='bg-gray-100 h-48 flex items-center justify-center'>
-                    <span className='text-6xl'>{project.image}</span>
+                    <img src={project.image} alt={project.title} className='w-full h-full object-cover' />
                     </div>
                     <div className='p-6'>
                     <h3 className='text-xl font-bold mb-2'>{project.title}</h3>
@@ -153,7 +153,7 @@ const page = () => {
             <div className='max-w-4xl mx-auto text-center'>
             <h2 className='text-3xl font-bold mb-8'>Technologies I Work With</h2>
             <div className='flex flex-wrap justify-center gap-3'>
-                {['React', 'Next.js', 'TypeScript', 'Node.js', 'MongoDB', 'PostgreSQL', 'Tailwind CSS', 'Git', 'Figma', 'Vercel'].map((tech) => (
+                {['React', 'Next.js', 'TypeScript', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Git', 'Figma', 'Vercel'].map((tech) => (
                 <span key={tech} className='px-4 py-2 bg-white border border-gray-200 rounded-lg text-gray-700 font-medium hover:border-blue-300 transition-all'>
                     {tech}
                 </span>
