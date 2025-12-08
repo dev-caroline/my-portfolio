@@ -52,20 +52,20 @@ const page = () => {
     return (
         <div className='min-h-screen'>
             {/* Hero Section */}
-            <section className='py-20 px-4'>
+            <section className='py-12 md:py-16 lg:py-20 px-4'>
                 <div className='max-w-4xl mx-auto text-center'>
-                <h1 className='text-5xl font-bold mb-6'>Certifications</h1>
-                <p className='text-xl text-gray-600 mb-8 leading-relaxed'>
+                <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6'>Certifications</h1>
+                <p className='text-base md:text-lg lg:text-xl text-gray-600 mb-6 md:mb-8 leading-relaxed'>
                     My journey of continuous learning and professional development
                 </p>
-                <p className='text-lg text-gray-500'>
+                <p className='text-sm md:text-base text-gray-500'>
                     From design tools to development frameworks, these certifications represent my commitment to mastering diverse technologies.
                 </p>
                 </div>
             </section>
 
             {/* Certifications Grid */}
-            <section className='py-20 px-4'>
+            <section className='py-12 md:py-16 lg:py-20 px-4'>
                 <div className='max-w-6xl mx-auto'>
                 <div className='grid md:grid-cols-2 gap-8'>
                     {certifications.map((cert) => (
@@ -106,9 +106,9 @@ const page = () => {
             </section>
 
             {/* Skills Summary */}
-            <section className='py-20 px-4 bg-gray-50'>
+            <section className='py-12 md:py-16 lg:py-20 px-4 bg-gray-50'>
                 <div className='max-w-4xl mx-auto text-center'>
-                <h2 className='text-3xl font-bold mb-8'>Skills Overview</h2>
+                <h2 className='text-2xl md:text-3xl font-bold mb-6 md:mb-8'>Skills Overview</h2>
                 <div className='flex flex-wrap justify-center gap-3 mb-8'>
                     {['React', 'Node.js', 'MongoDB', 'TypeScript', 'Excel', 'Canva', 'PowerPoint', 'Data Analysis', 'UI/UX Design', 'Web Development'].map((skill) => (
                     <span key={skill} className='px-4 py-2 bg-white border border-gray-200 rounded-lg text-gray-700 font-medium hover:border-blue-300 transition-all'>
@@ -123,10 +123,10 @@ const page = () => {
             </section>
 
             {/* CTA Section */}
-            <section className='py-20 px-4'>
+            <section className='py-12 md:py-16 lg:py-20 px-4'>
                 <div className='max-w-4xl mx-auto text-center'>
-                <h2 className='text-3xl font-bold mb-4'>Ready to Work Together?</h2>
-                <p className='text-xl text-gray-600 mb-8'>
+                <h2 className='text-2xl md:text-3xl font-bold mb-4'>Ready to Work Together?</h2>
+                <p className='text-base md:text-lg lg:text-xl text-gray-600 mb-6 md:mb-8'>
                     Let's discuss how my diverse skill set can contribute to your next project.
                 </p>
                 <div className='flex flex-col sm:flex-row gap-4 justify-center'>

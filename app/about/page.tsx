@@ -4,18 +4,18 @@ import Link from 'next/link'
 const page = () => {
     return (
         <div className='min-h-screen'>
-        <section className='py-20 px-4'>
+        <section className='pt-12 md:py-16 lg:py-20 px-4'>
             <div className='max-w-4xl mx-auto text-center'>
-            <h1 className='text-5xl font-bold mb-6'>About Me</h1>
-            <p className='text-xl text-gray-600 mb-12 leading-relaxed'>
+            <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6'>About Me</h1>
+            <p className='text-base md:text-lg lg:text-xl text-gray-600 mb-8 md:mb-12 leading-relaxed'>
                 Passionate software engineer dedicated to creating meaningful digital experiences
             </p>
             </div>
         </section>
 
-        <section className='py-20 px-4'>
+        <section className='py-2 md:py-16 lg:py-10 px-4'>
             <div className='max-w-6xl mx-auto'>
-            <div className='grid lg:grid-cols-2 gap-16 items-center'>
+            <div className='grid lg:grid-cols-2  md:gap-12 lg:gap-16 items-center'>
                 <div>
                 <h2 className='text-3xl font-bold mb-6'>My Journey</h2>
                 <div className='space-y-4 text-gray-700 leading-relaxed'>
@@ -58,53 +58,53 @@ const page = () => {
                 </div>
 
                 <div>
-                <h2 className='text-3xl font-bold mb-6'>Technical Expertise</h2>
+                <h2 className='text-3xl font-bold mb-6 mt-8'>Technical Expertise</h2>
 
                 <div className='space-y-6'>
                     <div>
-                    <h3 className='text-xl font-semibold mb-3 text-blue-600'>Frontend Development</h3>
+                    <h3 className='text-xl font-semibold mb-3 text-blue-400'>Frontend Development</h3>
                     <div className='flex flex-wrap gap-2'>
-                        <span className='px-3 py-1 bg-blue-100 text-blue-800 rounded'>React</span>
-                        <span className='px-3 py-1 bg-blue-100 text-blue-800 rounded'>Next.js</span>
-                        <span className='px-3 py-1 bg-blue-100 text-blue-800 rounded'>TypeScript</span>
-                        <span className='px-3 py-1 bg-blue-100 text-blue-800 rounded'>Tailwind CSS</span>
-                        <span className='px-3 py-1 bg-blue-100 text-blue-800 rounded'>JavaScript</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-blue-50 text-blue-800 rounded'>React</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-blue-50 text-blue-800 rounded'>Next.js</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-blue-50 text-blue-800 rounded'>TypeScript</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-blue-50 text-blue-800 rounded'>Tailwind CSS</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-blue-50 text-blue-800 rounded'>JavaScript</span>
                     </div>
                     </div>
 
                     <div>
-                    <h3 className='text-xl font-semibold mb-3 text-blue-600'>Backend Development</h3>
+                    <h3 className='text-xl font-semibold mb-3 text-blue-400'>Backend Development</h3>
                     <div className='flex flex-wrap gap-2'>
-                        <span className='px-3 py-1 bg-green-100 text-green-800 rounded'>Node.js</span>
-                        <span className='px-3 py-1 bg-green-100 text-green-800 rounded'>Express</span>
-                        <span className='px-3 py-1 bg-green-100 text-green-800 rounded'>MongoDB</span>
-                        <span className='px-3 py-1 bg-green-100 text-green-800 rounded'>REST APIs</span>
-                        <span className='px-3 py-1 bg-green-100 text-green-800 rounded'>GraphQL</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-green-50 text-green-800 rounded'>Node.js</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-green-50 text-green-800 rounded'>Express</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-green-50 text-green-800 rounded'>MongoDB</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-green-50 text-green-800 rounded'>REST APIs</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-green-50 text-green-800 rounded'>GraphQL</span>
                     </div>
                     </div>
 
                     <div>
-                    <h3 className='text-xl font-semibold mb-3 text-blue-600'>Tools & Technologies</h3>
+                    <h3 className='text-xl font-semibold mb-3 text-blue-400'>Tools & Technologies</h3>
                     <div className='flex flex-wrap gap-2'>
-                        <span className='px-3 py-1 bg-purple-100 text-purple-800 rounded'>Git</span>
-                        <span className='px-3 py-1 bg-purple-100 text-purple-800 rounded'>GitHub</span>
-                        <span className='px-3 py-1 bg-purple-100 text-purple-800 rounded'>Vercel</span>
-                        <span className='px-3 py-1 bg-purple-100 text-purple-800 rounded'>Figma</span>
-                        <span className='px-3 py-1 bg-purple-100 text-purple-800 rounded'>VS Code</span>
-                        <span className='px-3 py-1 bg-purple-100 text-purple-800 rounded'>Excel</span>
-                        <span className='px-3 py-1 bg-purple-100 text-purple-800 rounded'>PowerPoint</span>
-                        <span className='px-3 py-1 bg-purple-100 text-purple-800 rounded'>Canva</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-purple-50 text-purple-800 rounded'>Git</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-purple-50 text-purple-800 rounded'>GitHub</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-purple-50 text-purple-800 rounded'>Vercel</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-purple-50 text-purple-800 rounded'>Figma</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-purple-50 text-purple-800 rounded'>VS Code</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-purple-50 text-purple-800 rounded'>Excel</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-purple-50 text-purple-800 rounded'>PowerPoint</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-purple-50 text-purple-800 rounded'>Canva</span>
                     </div>
                     </div>
 
                     <div>
-                    <h3 className='text-xl font-semibold mb-3 text-blue-600'>AI & Prompt Engineering</h3>
+                    <h3 className='text-xl font-semibold mb-3 text-blue-400'>AI & Prompt Engineering</h3>
                     <div className='flex flex-wrap gap-2'>
-                        <span className='px-3 py-1 bg-indigo-100 text-indigo-800 rounded'>ChatGPT</span>
-                        <span className='px-3 py-1 bg-indigo-100 text-indigo-800 rounded'>Claude</span>
-                        <span className='px-3 py-1 bg-indigo-100 text-indigo-800 rounded'>Prompt Engineering</span>
-                        <span className='px-3 py-1 bg-indigo-100 text-indigo-800 rounded'>AI Tools</span>
-                        <span className='px-3 py-1 bg-indigo-100 text-indigo-800 rounded'>Problem Solving</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-indigo-50 text-indigo-800 rounded'>ChatGPT</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-indigo-50 text-indigo-800 rounded'>Claude</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-indigo-50 text-indigo-800 rounded'>Prompt Engineering</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-indigo-50 text-indigo-800 rounded'>AI Tools</span>
+                        <span className='px-2 text-sm lg:text-md lg:px-3 py-1 bg-indigo-50 text-indigo-800 rounded'>Problem Solving</span>
                     </div>
                     </div>
                 </div>
@@ -113,9 +113,9 @@ const page = () => {
             </div>
         </section>
 
-        <section className='py-20 px-4'>
+        <section className='py-12 md:py-16 lg:py-20 px-4'>
             <div className='max-w-4xl mx-auto'>
-            <h2 className='text-3xl font-bold text-center mb-12'>Experience</h2>
+            <h2 className='text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12'>Experience</h2>
 
             <div className='space-y-8'>
                 <div className='flex gap-6'>
@@ -136,11 +136,11 @@ const page = () => {
                         Articals.org
                     </a>
                     <div className='flex flex-wrap gap-2 mt-2'>
-                        <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>Next.js</span>
-                        <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>TypeScript</span>
-                        <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>Version Control</span>
-                        <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>Critical Thinking</span>
-                        <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>Tailwind CSS</span>
+                        <span className='px-2 py-1 bg-blue-50 text-blue-800 text-xs rounded'>Next.js</span>
+                        <span className='px-2 py-1 bg-blue-50 text-blue-800 text-xs rounded'>TypeScript</span>
+                        <span className='px-2 py-1 bg-blue-50 text-blue-800 text-xs rounded'>Version Control</span>
+                        <span className='px-2 py-1 bg-blue-50 text-blue-800 text-xs rounded'>Critical Thinking</span>
+                        <span className='px-2 py-1 bg-blue-50 text-blue-800 text-xs rounded'>Tailwind CSS</span>
                     </div>
                 </div>
                 </div>
@@ -158,14 +158,14 @@ const page = () => {
                     Virtual internship experience that helped develop foundational web development skills.
                     </p>
                     <div className='flex flex-wrap gap-2'>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>HTML5</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>GitHub</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>Bootstrap</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>CSS3</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>JavaScript</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>React.js</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>Node.js</span>
-                        <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>Firebase</span>
+                        <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>HTML5</span>
+                        <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>GitHub</span>
+                        <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>Bootstrap</span>
+                        <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>CSS3</span>
+                        <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>JavaScript</span>
+                        <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>React.js</span>
+                        <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>Node.js</span>
+                        <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>Firebase</span>
                     </div>
                 </div>
                 </div>
@@ -187,14 +187,14 @@ const page = () => {
                     </a>
                     </p>
                     <div className='flex flex-wrap gap-2'>
-                        <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>React.js</span>
-                        <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>Node.js</span>
-                        <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>HTML5</span>
-                        <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>CSS3</span>
-                        <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>Bootstrap</span>
-                        <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>Firebase</span>
-                        <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>GitHub</span>
-                        <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>Front-End Development</span>
+                        <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>React.js</span>
+                        <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>Node.js</span>
+                        <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>HTML5</span>
+                        <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>CSS3</span>
+                        <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>Bootstrap</span>
+                        <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>Firebase</span>
+                        <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>GitHub</span>
+                        <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>Front-End Development</span>
                     </div>
                 </div>
                 </div>
@@ -239,9 +239,9 @@ const page = () => {
             </div>
         </section>
 
-        <section className='py-20 px-4 bg-gray-50'>
+        <section className='py-12 md:py-16 lg:py-20 px-4 bg-gray-50'>
             <div className='max-w-4xl mx-auto text-center'>
-            <h2 className='text-3xl font-bold mb-4'>Let's Connect</h2>
+            <h2 className='text-2xl md:text-3xl font-bold mb-4 md:mb-8'>Let's Connect</h2>
             <p className='text-xl text-gray-600 mb-8'>
                 Interested in working together or just want to chat about tech?
             </p>

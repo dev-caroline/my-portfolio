@@ -47,65 +47,21 @@ const page = () => {
 
     return (
         <div className='min-h-screen'>
-        <section className='py-20 px-4'>
+        <section className='py-12 md:py-16 lg:py-20 px-4'>
             <div className='max-w-4xl mx-auto text-center'>
-            <h1 className='text-5xl font-bold mb-6'>My Projects</h1>
-            <p className='text-xl text-gray-600 mb-8 leading-relaxed'>
+            <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6'>My Projects</h1>
+            <p className='text-base md:text-lg lg:text-xl text-gray-600 mb-6 md:mb-8 leading-relaxed'>
                 Showcasing my completed projects and upcoming developments in full-stack web applications
             </p>
-            <p className='text-lg text-gray-500'>
+            <p className='text-sm md:text-base text-gray-500'>
                 From healthcare platforms to productivity tools, featuring both live applications and planned projects.
             </p>
             </div>
         </section>
 
-        <section className='py-20 px-4'>
+        <section className='py-12 md:py-16 lg:py-20 px-4'>
             <div className='max-w-6xl mx-auto'>
-            <h2 className='text-3xl font-bold mb-12 text-center'>Featured Work</h2>
-
-            <div className='grid md:grid-cols-3 gap-8 mb-16'>
-                {projects.filter(project => project.featured).map((project) => (
-                <div key={project.id} className='bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow'>
-                    <div className='bg-gray-100 h-64 flex items-center justify-center'>
-                    {project.image && project.image !== "/images/placeholder-project.jpg" ? (
-                        <img src={project.image} alt={project.title} className='w-full h-full object-cover' />
-                    ) : (
-                        <div className='text-center'>
-                            <i className="bi bi-code-slash text-4xl text-gray-400 mb-2"></i>
-                            <p className='text-gray-500 text-sm'>Screenshot Coming Soon</p>
-                        </div>
-                    )}
-                    </div>
-                    <div className='p-8'>
-                    <h3 className='text-2xl font-bold mb-3'>{project.title}</h3>
-                    <p className='text-gray-600 mb-6 leading-relaxed'>{project.description}</p>
-
-                    <div className='flex flex-wrap gap-2 mb-6'>
-                        {project.tags.map((tag) => (
-                        <span key={tag} className='px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded'>
-                            {tag}
-                        </span>
-                        ))}
-                    </div>
-
-                    <div className='flex gap-4'>
-                        <a href={project.demo} className='flex-1 text-center bg-blue-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-blue-700 transition-all'>
-                        Live Demo
-                        </a>
-                        <a href={project.github} className='flex-1 text-center border border-blue-600 text-blue-600 py-2 px-4 rounded-lg font-medium hover:bg-blue-50 transition-all'>
-                        GitHub
-                        </a>
-                    </div>
-                    </div>
-                </div>
-                ))}
-            </div>
-            </div>
-        </section>
-
-        <section className='py-20 px-4'>
-            <div className='max-w-6xl mx-auto'>
-            <h2 className='text-3xl font-bold mb-12 text-center'>All Projects</h2>
+            <h2 className='text-2xl md:text-3xl font-bold mb-8 md:mb-12 text-center'>All Projects</h2>
 
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {projects.map((project) => (
@@ -143,22 +99,10 @@ const page = () => {
             </div>
         </section>
 
-        <section className='py-20 px-4'>
-            <div className='max-w-4xl mx-auto text-center'>
-            <h2 className='text-3xl font-bold mb-8'>Technologies I Work With</h2>
-            <div className='flex flex-wrap justify-center gap-3'>
-                {['React', 'Next.js', 'TypeScript', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Git', 'Figma', 'Vercel'].map((tech) => (
-                <span key={tech} className='px-4 py-2 bg-white border border-gray-200 rounded-lg text-gray-700 font-medium hover:border-blue-300 transition-all'>
-                    {tech}
-                </span>
-                ))}
-            </div>
-            </div>
-        </section>
 
-        <section className='py-20 px-4 bg-gray-50'>
+        <section className='py-12 md:py-16 lg:py-20 px-4 bg-gray-50'>
             <div className='max-w-4xl mx-auto text-center'>
-            <h2 className='text-3xl font-bold mb-4'>Have a Project in Mind?</h2>
+            <h2 className='text-2xl md:text-3xl font-bold mb-4 md:mb-8'>Let's Build Something Together</h2>
             <p className='text-xl text-gray-600 mb-8'>
                 I'm always excited to take on new challenges and bring creative ideas to life.
             </p>

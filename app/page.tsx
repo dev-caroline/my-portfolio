@@ -38,10 +38,10 @@ const page = () => {
         </div>
       </section>
 
-      <section className='py-20 px-4 bg-gray-50'>
+      <section className='py-12 md:py-16 lg:py-20 px-4 bg-gray-50'>
         <div className='max-w-6xl mx-auto'>
-          <h2 className='text-4xl font-bold text-center mb-4'>My Skills</h2>
-          <p className='text-center text-gray-600 mb-12'>Technologies I work with</p>
+          <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-4'>My Skills</h2>
+          <p className='text-center text-gray-600 mb-8 md:mb-12'>Technologies I work with</p>
 
           <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6'>
             <div className='bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow'>
@@ -71,10 +71,10 @@ const page = () => {
         </div>
       </section>
 
-      <section className='py-20 px-4'>
+      <section className='py-12 md:py-16 lg:py-20 px-4'>
         <div className='max-w-4xl mx-auto'>
-          <h2 className='text-4xl font-bold text-center mb-4'>Soft Skills</h2>
-          <p className='text-center text-gray-600 mb-12'>Professional qualities that drive success</p>
+          <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-4'>Soft Skills</h2>
+          <p className='text-center text-gray-600 mb-8 md:mb-12'>Professional qualities that drive success</p>
 
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
             <div className='bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow text-center'>
@@ -116,23 +116,23 @@ const page = () => {
         </div>
       </section>
 
-      <section className='py-20 px-4'>
+      <section className='py-12 md:py-16 lg:py-20 px-4'>
         <div className='max-w-6xl mx-auto'>
-          <h2 className='text-4xl font-bold text-center mb-4'>Featured Projects</h2>
-          <p className='text-center text-gray-600 mb-12'>Some of my recent work</p>
+          <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-4'>Featured Projects</h2>
+          <p className='text-center text-gray-600 mb-8 md:mb-12'>Some of my recent work</p>
 
           <div className='grid md:grid-cols-3 lg:grid-cols-3 gap-8'>
             <div className='bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow'>
               <div className='bg-gray-100 h-48 flex items-center justify-center'>
-                <img src="/images/ecommerce-platform.jpg" alt="E-Commerce Platform" className='w-full h-full object-cover' />
+                {/* <img src="/images/ecommerce-platform.jpg" alt="E-Commerce Platform" className='w-full h-full object-cover' /> */}
               </div>
               <div className='p-6'>
                 <h3 className='text-xl font-bold mb-2'>E-Commerce Platform</h3>
                 <p className='text-gray-600 mb-4'>Full-featured online shopping platform with modern UI</p>
                 <div className='flex flex-wrap gap-2 mb-4'>
-                  <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>React</span>
-                  <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>Next.js</span>
-                  <span className='px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded'>Stripe</span>
+                  <span className='px-2 py-1 bg-blue-50 text-blue-800 text-xs rounded'>React</span>
+                  <span className='px-2 py-1 bg-blue-50 text-blue-800 text-xs rounded'>Next.js</span>
+                  <span className='px-2 py-1 bg-blue-50 text-blue-800 text-xs rounded'>Stripe</span>
                 </div>
                 <div className='flex gap-2'>
                   <a href="#" className='text-blue-600 hover:underline text-sm'>Live Demo</a>
@@ -143,15 +143,15 @@ const page = () => {
 
             <div className='bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow'>
               <div className='bg-gray-100 h-48 flex items-center justify-center'>
-                <img src="/images/task-management.jpg" alt="Task Management App" className='w-full h-full object-cover' />
+                {/* <img src="/images/task-management.jpg" alt="Task Management App" className='w-full h-full object-cover' /> */}
               </div>
               <div className='p-6'>
                 <h3 className='text-xl font-bold mb-2'>Task Management App</h3>
                 <p className='text-gray-600 mb-4'>Collaborative task manager with real-time updates</p>
                 <div className='flex flex-wrap gap-2 mb-4'>
-                  <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>React</span>
-                  <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>Node.js</span>
-                  <span className='px-2 py-1 bg-green-100 text-green-800 text-xs rounded'>Socket.io</span>
+                  <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>React</span>
+                  <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>Node.js</span>
+                  <span className='px-2 py-1 bg-green-50 text-green-800 text-xs rounded'>Socket.io</span>
                 </div>
                 <div className='flex gap-2'>
                   <a href="#" className='text-blue-600 hover:underline text-sm'>Live Demo</a>
@@ -162,15 +162,15 @@ const page = () => {
 
             <div className='bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow'>
               <div className='bg-gray-100 h-48 flex items-center justify-center'>
-                <img src="/images/weather-dashboard.jpg" alt="Weather Dashboard" className='w-full h-full object-cover' />
+                {/* <img src="/images/weather-dashboard.jpg" alt="Weather Dashboard" className='w-full h-full object-cover' /> */}
               </div>
               <div className='p-6'>
                 <h3 className='text-xl font-bold mb-2'>Weather Dashboard</h3>
                 <p className='text-gray-600 mb-4'>Beautiful weather app with interactive maps</p>
                 <div className='flex flex-wrap gap-2 mb-4'>
-                  <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>React</span>
-                  <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>API</span>
-                  <span className='px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded'>CSS</span>
+                  <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>React</span>
+                  <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>API</span>
+                  <span className='px-2 py-1 bg-purple-50 text-purple-800 text-xs rounded'>CSS</span>
                 </div>
                 <div className='flex gap-2'>
                   <a href="#" className='text-blue-600 hover:underline text-sm'>Live Demo</a>
@@ -196,7 +196,7 @@ const page = () => {
         <p className='text-xl mb-8 opacity-90'>
           Check out my resume and GitHub to see more of my work and experience.
         </p>
-        <div className='flex flex-col sm:flex-row gap-4 justify-center'>
+        <div className='flex flex-col sm:flex-row gap-4 justify-center p-5'>
           <a href="/resume.pdf" download className='bg-white text-blue-600 border border-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all inline-flex items-center gap-2'>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />

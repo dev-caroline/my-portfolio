@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div className='border border-gray-300 p-4 sticky top-0 bg-white z-50'>
         <div className='flex justify-between items-center max-w-7xl mx-auto px-4 lg:px-10'>
-            <h1 className='text-2xl font-bold'>My Portfolio.</h1>
+            <h1 className='text-2xl font-bold'>Caro.dev</h1>
 
             {/* Desktop Navigation */}
             <div className='hidden md:flex gap-10'>
