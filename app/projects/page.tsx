@@ -15,7 +15,7 @@ const page = () => {
         },
         {
         id: 2,
-        title: "Medic Diet Clinic",
+        title: "MedicDiet Clinic",
         description: "A professional nutrition and dietetics consultation platform that connects clients with certified dietitians. Features include appointment scheduling, personalized meal plans, progress tracking, and secure messaging. Built with the MERN stack for scalability and performance.",
         image: "/images/medic diet clinic.png",
         tags: ["React", "Node.js", "MongoDB", "Express", "MERN Stack"],
@@ -25,9 +25,9 @@ const page = () => {
         },
         {
         id: 3,
-        title: "Task Management App",
-        description: "A collaborative task management application with real-time updates, team workspaces, and productivity analytics. Features drag-and-drop functionality, deadline tracking, and progress visualization. Currently in development.",
-        image: "/images/placeholder-project.jpg",
+        title: "Recovery Hub",
+        description: "A comprehensive lost and found platform that connects people with their lost belongings. Users can report lost items with detailed descriptions and locations, while others can post found items to help reunite them with their owners. Features real-time notifications, advanced search filters, and secure user authentication to facilitate safe item recovery.",
+        image: "/images/Recovery Hub.png",
         tags: ["React", "Node.js", "MongoDB", "Real-time", "In Development"],
         demo: "#",
         github: "#",

@@ -9,7 +9,7 @@ const page = () => {
           <div className='w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 morphing-box rounded-2xl'></div>
 
           <div className='flex-1 text-center lg:text-left'>
-            <p>Hello, i'm</p>
+            <span className='bg-blue-200 px-1'>Hello, i'm</span>
             <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4'>
               Ajiboye Caroline Adetomiwa
             </h1>
